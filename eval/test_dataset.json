@@ -1,0 +1,122 @@
+[
+  {
+    "id": "qa_01",
+    "question": "What was TechCorp's total revenue in Q3 2024?",
+    "expected_answer": "$156.8M",
+    "expected_page": 1,
+    "expected_content_type": "table",
+    "key_tokens": ["156.8", "revenue", "Q3 2024"]
+  },
+  {
+    "id": "qa_02",
+    "question": "What was the Year-over-Year (YoY) growth rate for Net Income?",
+    "expected_answer": "+46.0%",
+    "expected_page": 1,
+    "expected_content_type": "table",
+    "key_tokens": ["46.0%", "net income"]
+  },
+  {
+    "id": "qa_03",
+    "question": "What was the operating margin percentage reported for Q3 2024?",
+    "expected_answer": "28.4%",
+    "expected_page": 1,
+    "expected_content_type": "table",
+    "key_tokens": ["28.4%", "operating margin"]
+  },
+  {
+    "id": "qa_04",
+    "question": "How much free cash flow did the company generate in Q2 2024?",
+    "expected_answer": "$26.3M",
+    "expected_page": 1,
+    "expected_content_type": "table",
+    "key_tokens": ["26.3", "free cash flow"]
+  },
+  {
+    "id": "qa_05",
+    "question": "What was the R&D expenditure in Q1 2024?",
+    "expected_answer": "$18.4M",
+    "expected_page": 1,
+    "expected_content_type": "table",
+    "key_tokens": ["18.4", "R&D"]
+  },
+  {
+    "id": "qa_06",
+    "question": "What was the actual Q3 uptime achieved in the US-East N. Virginia region?",
+    "expected_answer": "99.985%",
+    "expected_page": 2,
+    "expected_content_type": "table",
+    "key_tokens": ["99.985%", "US-East", "Virginia"]
+  },
+  {
+    "id": "qa_07",
+    "question": "How many P1 incidents occurred in the AP-South Mumbai region?",
+    "expected_answer": "4",
+    "expected_page": 2,
+    "expected_content_type": "table",
+    "key_tokens": ["4", "Mumbai", "AP-South"]
+  },
+  {
+    "id": "qa_08",
+    "question": "What was the p99 latency recorded for EU-Central Frankfurt in Q3?",
+    "expected_answer": "29.8 ms",
+    "expected_page": 2,
+    "expected_content_type": "table",
+    "key_tokens": ["29.8", "Frankfurt", "latency"]
+  },
+  {
+    "id": "qa_09",
+    "question": "What is the target SLA for the US-West Oregon region?",
+    "expected_answer": "99.95%",
+    "expected_page": 2,
+    "expected_content_type": "table",
+    "key_tokens": ["99.95%", "Oregon", "US-West"]
+  },
+  {
+    "id": "qa_10",
+    "question": "What is the total capacity allocated to the Hot NVMe Block Store tier?",
+    "expected_answer": "1.2 PB",
+    "expected_page": 3,
+    "expected_content_type": "table",
+    "key_tokens": ["1.2 PB", "NVMe", "Hot"]
+  },
+  {
+    "id": "qa_11",
+    "question": "What is the unit cost per gigabyte for Standard Object Storage?",
+    "expected_answer": "$0.021",
+    "expected_page": 3,
+    "expected_content_type": "table",
+    "key_tokens": ["0.021", "Standard Object"]
+  },
+  {
+    "id": "qa_12",
+    "question": "What is the monthly expenditure for Glacier Deep Archive storage?",
+    "expected_answer": "$42.0k",
+    "expected_page": 3,
+    "expected_content_type": "table",
+    "key_tokens": ["42.0k", "Glacier Deep Archive"]
+  },
+  {
+    "id": "qa_13",
+    "question": "What is the access frequency of the Infrequent Access (IA) storage tier?",
+    "expected_answer": "Occasional (Monthly)",
+    "expected_page": 3,
+    "expected_content_type": "table",
+    "key_tokens": ["Occasional", "Monthly", "Infrequent Access"]
+  },
+  {
+    "id": "qa_14",
+    "question": "What is the total fleet storage capacity across all tiers combined?",
+    "expected_answer": "65.9 PB",
+    "expected_page": 3,
+    "expected_content_type": "table",
+    "key_tokens": ["65.9 PB", "Total Fleet Footprint"]
+  },
+  {
+    "id": "qa_15",
+    "question": "What caused the P1 service incidents observed in the Mumbai region?",
+    "expected_answer": "Subsea fiber cuts impacting upstream transit tier-1 carriers",
+    "expected_page": 2,
+    "expected_content_type": "text",
+    "key_tokens": ["subsea", "fiber", "transit", "BGP"]
+  }
+]
